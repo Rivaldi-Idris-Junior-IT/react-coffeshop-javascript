@@ -29,22 +29,22 @@ export default function Footer() {
                         <div className="col-lg-3 ml-auto product">
                             <p>Product</p>
                             <ul>
-                                <li><Link style={{ color:"#4F5665" }}>Download</Link></li>
-                                <li><Link style={{ color:"#4F5665" }}>Pricing</Link></li>
-                                <li><Link style={{ color:"#4F5665" }}>Locations</Link></li>
-                                <li><Link style={{ color:"#4F5665" }}>Countries</Link></li>
-                                <li><Link style={{ color:"#4F5665" }}>Blog</Link></li>
+                                <li><Link to="/#" style={{ color:"#4F5665" }}>Download</Link></li>
+                                <li><Link to="/#" style={{ color:"#4F5665" }}>Pricing</Link></li>
+                                <li><Link to="/#" style={{ color:"#4F5665" }}>Locations</Link></li>
+                                <li><Link to="/#" style={{ color:"#4F5665" }}>Countries</Link></li>
+                                <li><Link to="/#" style={{ color:"#4F5665" }}>Blog</Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 ml-auto">
                             <div className="col-lg-3 ml-auto engage">
                                 <p>Engage</p>
                                 <ul>
-                                    <li><Link style={{ color:"#4F5665" }}>Download</Link></li>
-                                    <li><Link style={{ color:"#4F5665" }}>Pricing</Link></li>
-                                    <li><Link style={{ color:"#4F5665" }}>Locations</Link></li>
-                                    <li><Link style={{ color:"#4F5665" }}>Countries</Link></li>
-                                    <li><Link style={{ color:"#4F5665" }}>Blog</Link></li>
+                                    <li><Link to="/#" style={{ color:"#4F5665" }}>Download</Link></li>
+                                    <li><Link to="/#" style={{ color:"#4F5665" }}>Pricing</Link></li>
+                                    <li><Link to="/#" style={{ color:"#4F5665" }}>Locations</Link></li>
+                                    <li><Link to="/#" style={{ color:"#4F5665" }}>Countries</Link></li>
+                                    <li><Link to="/#" style={{ color:"#4F5665" }}>Blog</Link></li>
                                 </ul>
                             </div>
                         </div>

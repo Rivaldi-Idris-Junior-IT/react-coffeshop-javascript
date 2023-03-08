@@ -1,17 +1,28 @@
 /* eslint-disable */ 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import brandIcon from '../assets/images/coffeebrand.svg'
 import profile from '../assets/images/profile.jpg'
+import { useAlert } from 'react-alert'
+import { useDispatch, useSelector } from 'react-redux'
+
+import { loadUser } from '../actions/userAction'
+import store from 'store'
 
 export default function Header(props) {
+    
+
+    const alert = useAlert();
+    const dispatch = useDispatch();
+
+    const { user, loading } = useSelector(state => state.auth)        
 
     if(props.isLogin) 
     return (
         <header className="spacing-sm">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light mt-2">
-                    <Link to="/" className="brandLinkNavbar">
+                    <Link to="/#" className="brandLinkNavbar">
                         <div className="brandNavbar ml-auto">
                             <img className="d-inline-block" src={brandIcon} width="20" height="20" alt="coffeIcon"/>
                             Coffe Shop                    

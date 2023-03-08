@@ -1,0 +1,3 @@
+Video MERN Stack Full Ecommerce Site -> implementing redux
+
+video Product reducer -> 03:11
