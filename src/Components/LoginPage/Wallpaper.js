@@ -14,7 +14,7 @@ export default class wallpaper extends Component {
                             <img src={imageLogin} alt="imageLogin"/>
                         </div>
                         <div className="formBackground col-lg-6">
-                            <Header isLogin/>
+                            <Header isPageLogin/>
                             <FormLogin/>
                         </div>
                 </div>

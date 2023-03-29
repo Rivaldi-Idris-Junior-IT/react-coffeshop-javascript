@@ -8,7 +8,7 @@ export default function Jumbotron() {
                     <h1>Start Your Day With <br/> Coffe And Meals </h1>                    
                     <br/>
                     <p style={{ fontSize:"20px", marginTop:"-30px" }}>We provide high quality beans, good taste, and healthy <br/> meals made by love just for you. Start your day with us <br/> for a bigger smile!</p>
-                    <Link to="/" className="btn btn-warning justify-content-center" style={{ width:"180px", fontWeight:"bold"}}>
+                    <Link to="/#" className="btn btn-warning justify-content-center" style={{ width:"180px", fontWeight:"bold"}}>
                         Get Started
                     </Link>
                 </div>

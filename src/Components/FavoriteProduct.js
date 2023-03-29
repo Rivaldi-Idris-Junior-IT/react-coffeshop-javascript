@@ -42,7 +42,7 @@ export default function FavoriteProduct() {
                                                 IDR 25.000
                                             </h3>
                                             <button>
-                                                <Link style={{ color:"#6A4029" }}>Order Now</Link>
+                                                <Link to="/#" style={{ color:"#6A4029" }}>Order Now</Link>
                                             </button>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ export default function FavoriteProduct() {
                                                 IDR 30.000
                                             </h3>
                                             <button>
-                                                <Link style={{ color:"#6A4029" }}>Order Now</Link>
+                                                <Link to="/#" style={{ color:"#6A4029" }}>Order Now</Link>
                                             </button>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@ export default function FavoriteProduct() {
                                                 IDR 40.000
                                             </h3>
                                             <button>
-                                                <Link style={{ color:"#6A4029" }}>Order Now</Link>
+                                                <Link to="/#" style={{ color:"#6A4029" }}>Order Now</Link>
                                             </button>
                                         </div>
                                     </div>

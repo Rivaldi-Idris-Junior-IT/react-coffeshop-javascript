@@ -69,7 +69,7 @@ body {
                     .nav-item {
                         font-size: 16px;
                         font-weight: 400;
-                        color: #4F5665;
+                        color: #4F5665;                        
                     }
                 }
             }
@@ -587,6 +587,16 @@ body {
                         color:#6A4029;
                     }
                 }
+                .dropdown {
+                    button {
+                        border-radius: 100%;
+                        *:focus{
+                            outline: 0 !important;
+                            border-radius: 100%;
+                        }
+                    }                    
+                }                
+                
             }
         }
     }
